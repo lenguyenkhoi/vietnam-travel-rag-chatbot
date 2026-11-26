@@ -1,0 +1,54 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ===== Môi trường ảo =====
+.venv/
+venv/
+env/
+
+# ===== Bí mật / cấu hình cục bộ =====
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# ===== Dữ liệu (dữ liệu nội bộ của Localis + file nặng, sinh lại bằng scripts/01_build_dataset.py) =====
+data/
+
+# ===== Chỉ mục FAISS/BM25 (~190MB, sinh lại bằng scripts/04_build_index.py) =====
+indexes/
+
+# ===== Cache mô hình Hugging Face (nếu để trong thư mục dự án) =====
+models/
+hf_cache/
+
+# ===== Log và file tạm =====
+logs/
+*.log
+*.bak
+*.bak_*
+*.bak_*.csv
+eval/_tu_nhien_cache.jsonl
+
+# ===== IDE / hệ điều hành =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Không công khai: nội dung suy ra từ dữ liệu nội bộ Localis (chỉ dùng cho báo cáo) =====
+# Bộ câu hỏi kiểm thử, câu trả lời của mô hình, kết quả từng câu, bản đồ và thống kê dữ liệu.
+# Chỉ công khai code và các kết quả tổng hợp (chỉ số trung bình), không chứa nội dung địa điểm.
+eval/
+reports/01_build_dataset.json
+reports/02_*
+reports/03_chunk_stats.csv
+reports/*_per_question.csv
+reports/07_generation_answers_*.csv
+reports/07_cham_tay_*.csv
+reports/figures/02_*

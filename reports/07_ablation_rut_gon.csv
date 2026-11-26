@@ -1,0 +1,11 @@
+﻿cau_hinh,che_do,llm,dung,tu_choi_dung_OOS,tu_choi_nham,giay_tong
+A: v1,co_rag,llama3.2:3b,0.688,0.75,0.062,40.44
+A: v1,khong_rag,llama3.2:3b,0.062,0.75,0.625,9.1
+A: v1,co_rag,qwen2.5:3b,0.688,0.75,0.062,51.42
+A: v1,khong_rag,qwen2.5:3b,0.188,0.75,0.125,5.71
+B: v2,co_rag,llama3.2:3b,0.188,1.0,0.625,37.16
+B: v2,co_rag,qwen2.5:3b,0.562,1.0,0.312,42.87
+C: v2+rerank+nguong,co_rag,llama3.2:3b,0.312,1.0,0.625,61.44
+C: v2+rerank+nguong,co_rag,qwen2.5:3b,0.562,1.0,0.25,63.78
+D: v1+rerank+nguong,co_rag,llama3.2:3b,0.75,1.0,0.0,59.64
+D: v1+rerank+nguong,co_rag,qwen2.5:3b,0.75,1.0,0.062,58.58

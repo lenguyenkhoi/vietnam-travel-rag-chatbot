@@ -1,0 +1,4 @@
+﻿llm,dung_co_rag_tu_dong,dung_co_rag_dieu_chinh,dung_khong_rag_tu_dong,tu_choi_dung_ngoai_pham_vi_co_rag,tu_choi_dung_ngoai_pham_vi_khong_rag,giay_tb_co_rag,giay_tb_khong_rag
+gemma2:2b,0.75,0.906,0.188,1.0,0.5,50.2,6.4
+llama3.2:3b,0.781,0.859,0.156,1.0,0.625,58.1,8.3
+qwen2.5:3b,0.781,0.828,0.281,1.0,0.625,61.0,4.6

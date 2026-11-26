@@ -1,0 +1,5 @@
+﻿llm,che_do,so_cau,ty_le_dung_trong_pham_vi,ty_le_tu_choi_dung_ngoai_pham_vi,ty_le_tu_choi_nham,giay_tb,giay_p90,dung_goi_y,dung_mo_ta_an,dung_ngoai_pham_vi,dung_thong_tin,dung_tu_nhien
+llama3.2:3b,co_rag,20,0.688,0.75,0.062,40.44,51.09,0.75,1.0,0.75,0.75,0.25
+llama3.2:3b,khong_rag,20,0.062,0.75,0.625,9.1,18.02,0.0,0.25,0.75,0.0,0.0
+qwen2.5:3b,co_rag,20,0.688,0.75,0.062,51.42,76.73,0.75,1.0,0.75,0.5,0.5
+qwen2.5:3b,khong_rag,20,0.188,0.75,0.125,5.71,6.73,0.0,0.25,0.75,0.0,0.5

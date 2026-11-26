@@ -1,0 +1,13 @@
+numpy
+pandas
+torch
+sentence-transformers
+faiss-cpu
+rank_bm25
+ollama
+pyvi
+streamlit
+matplotlib
+folium
+scikit-learn
+tqdm
